@@ -61,7 +61,7 @@ You can quickly and easily setup automation to generate HTML, PDF, PowerPoint an
 1. Add this to your workflow
 
 ```yaml
-- uses: KoharaKazuya/marp-cli-action
+- uses: KoharaKazuya/marp-cli-action@v1
 ```
 
 or

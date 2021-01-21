@@ -61,7 +61,7 @@ GitHub Action として [Marp CLI](https://github.com/marp-team/marp-cli) を実
 1. ワークフローに以下を追加します
 
 ```yaml
-- uses: KoharaKazuya/marp-cli-action
+- uses: KoharaKazuya/marp-cli-action@v1
 ```
 
 または
