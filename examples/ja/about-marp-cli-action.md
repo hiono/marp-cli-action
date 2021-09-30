@@ -5,11 +5,11 @@ paginate: true
 
 <!-- _paginate: false -->
 
-# [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) について <!-- fit -->
+# [Marp CLI Action](https://github.com/hiono/marp-cli-action) について <!-- fit -->
 
 ---
 
-## [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) とは...
+## [Marp CLI Action](https://github.com/hiono/marp-cli-action) とは...
 
 [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) を用いて Markdown ファイルを静的な HTML / CSS、PDF、PowerPoint ドキュメント、画像などに変換する [GitHub Action](https://docs.github.com/actions) です。
 
@@ -37,14 +37,14 @@ paginate: true
 
 <!-- _paginate: false -->
 
-# About [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) <!-- fit -->
+# About [Marp CLI Action](https://github.com/hiono/marp-cli-action) <!-- fit -->
 
 ---
 
-## [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) is...
+## [Marp CLI Action](https://github.com/hiono/marp-cli-action) is...
 ```
 
-[このスライドのソース](https://github.com/KoharaKazuya/marp-cli-action/blob/main/examples/ja/about-marp-cli-action.md) を参照してください。
+[このスライドのソース](https://github.com/hiono/marp-cli-action/blob/main/examples/ja/about-marp-cli-action.md) を参照してください。
 
 ---
 
@@ -61,12 +61,12 @@ GitHub Action として [Marp CLI](https://github.com/marp-team/marp-cli) を実
 1. ワークフローに以下を追加します
 
 ```yaml
-- uses: KoharaKazuya/marp-cli-action@v1
+- uses: hiono/marp-cli-action@v1
 ```
 
 または
 
-1. [このテンプレート](https://github.com/KoharaKazuya/marp-cli-action-gh-pages-template) を使用し、リポジトリを作成します
+1. [このテンプレート](https://github.com/hiono/marp-cli-action-gh-pages-template) を使用し、リポジトリを作成します
 2. Marp の Markdown を書きます
 3. コミットし、プッシュします
 
@@ -76,7 +76,7 @@ _Marp CLI Action は Markdown からファイルを生成するのみです。�
 
 ## オプション
 
-[`action.yml`](https://github.com/KoharaKazuya/marp-cli-action/blob/main/action.yml) の `inputs` セクションを参照してください。
+[`action.yml`](https://github.com/hiono/marp-cli-action/blob/main/action.yml) の `inputs` セクションを参照してください。
 
 Marp CLI をカスタマイズするには [`marp.config.json`、`marp.config.cjs`、`.marprc` といった Marp CLI の設定ファイル](https://github.com/marp-team/marp-cli/blob/master/README.md#configuration-file) を使用してください。
 
