@@ -5,11 +5,11 @@ paginate: true
 
 <!-- _paginate: false -->
 
-# About [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) <!-- fit -->
+# About [Marp CLI Action](https://github.com/hiono/marp-cli-action) <!-- fit -->
 
 ---
 
-## [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) is...
+## [Marp CLI Action](https://github.com/hiono/marp-cli-action) is...
 
 a [GitHub Action](https://docs.github.com/actions) to convert markdown files into static HTML / CSS, PDF, PowerPoint document, and image(s) by [Marp CLI](https://github.com/marp-team/marp-cli).
 
@@ -37,14 +37,14 @@ paginate: true
 
 <!-- _paginate: false -->
 
-# About [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) <!-- fit -->
+# About [Marp CLI Action](https://github.com/hiono/marp-cli-action) <!-- fit -->
 
 ---
 
-## [Marp CLI Action](https://github.com/KoharaKazuya/marp-cli-action) is...
+## [Marp CLI Action](https://github.com/hiono/marp-cli-action) is...
 ```
 
-See [the source of this slide](https://github.com/KoharaKazuya/marp-cli-action/blob/main/examples/en/about-marp-cli-action.md).
+See [the source of this slide](https://github.com/hiono/marp-cli-action/blob/main/examples/en/about-marp-cli-action.md).
 
 ---
 
@@ -61,12 +61,12 @@ You can quickly and easily setup automation to generate HTML, PDF, PowerPoint an
 1. Add this to your workflow
 
 ```yaml
-- uses: KoharaKazuya/marp-cli-action@v1
+- uses: hiono/marp-cli-action@v1
 ```
 
 or
 
-1. Use [this template](https://github.com/KoharaKazuya/marp-cli-action-gh-pages-template) and create your repository
+1. Use [this template](https://github.com/hiono/marp-cli-action-gh-pages-template) and create your repository
 2. Write Marp markdown
 3. Commit and push
 
@@ -76,7 +76,7 @@ _Marp CLI Action does only generation files from Markdown. If you want to upload
 
 ## Options
 
-See the `inputs` section in [`action.yml`](https://github.com/KoharaKazuya/marp-cli-action/blob/main/action.yml).
+See the `inputs` section in [`action.yml`](https://github.com/hiono/marp-cli-action/blob/main/action.yml).
 
 To customize Marp CLI, use [the Marp CLI configuration file such as `marp.config.json`, `marp.config.cjs` and `.marprc`](https://github.com/marp-team/marp-cli/blob/master/README.md#configuration-file).
 
