@@ -11,7 +11,7 @@ Translations: [English](./README.md) [日本語](./README.ja.md)
 - uses: actions/checkout@v2
 
 - name: Convert Markdown into HTML and PDF
-  uses: KoharaKazuya/marp-cli-action@v1
+  uses: hiono/marp-cli-action@v1
 
 - name: Deploy to GitHub Pages
   uses: peaceiris/actions-gh-pages@v3
@@ -20,4 +20,4 @@ Translations: [English](./README.md) [日本語](./README.ja.md)
     publish_dir: ./
 ```
 
-このアクションによって生成された [スライドの例](https://koharakazuya.github.io/marp-cli-action/ja/about-marp-cli-action.html) を参照してください。
+このアクションによって生成された [スライドの例](https://hiono.github.io/marp-cli-action/ja/about-marp-cli-action.html) を参照してください。
