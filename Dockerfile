@@ -4,7 +4,8 @@ USER root
 WORKDIR /github/workspace
 
 ENV LANG="ja_JP.UTF-8"
-RUN cd /tmp && \
+RUN apk --no-cache add curl && \
+    cd /tmp && \
     mkdir noto && \
     curl -O -L https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip && \
     unzip NotoSansCJKjp-hinted.zip -d ./noto && \
