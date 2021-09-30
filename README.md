@@ -11,7 +11,7 @@ This example will publish a HTML slide deck and a PDF file on [GitHub Pages](htt
 - uses: actions/checkout@v2
 
 - name: Convert Markdown into HTML and PDF
-  uses: KoharaKazuya/marp-cli-action@v1
+  uses: hiono/marp-cli-action@v1
 
 - name: Deploy to GitHub Pages
   uses: peaceiris/actions-gh-pages@v3
@@ -20,4 +20,4 @@ This example will publish a HTML slide deck and a PDF file on [GitHub Pages](htt
     publish_dir: ./
 ```
 
-See [example slide deck](https://koharakazuya.github.io/marp-cli-action/en/about-marp-cli-action.html) genereted by this action.
+See [example slide deck](https://hiono.github.io/marp-cli-action/en/about-marp-cli-action.html) genereted by this action.
